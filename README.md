@@ -1,6 +1,7 @@
-# Tensor-Plugin-Example
-Example project for a Tensor plugin... You can probably make your own implementation of these project files, which would probably be better. I don't have anything set up like Maven so you're going to have to add the client dependancy locally like is done here.
+# Delta-Plugin
 
-Methods annotated with the @PluginEntryPoint annotation are the primary connection points to adding modules, commands, events, exc.
+Delta-Plugin is a port of the [Delta](https://github.com/Saturn5Vfive/Delta) crash client. 
+Refer to the readme for information about the client, however the prefix for commands will be the same as your Tensor prefix.
+They'll also show up in your command list too!
 
-Really any version (or snapshot) of tensor should work pretty consistantly beyond 0.8.0-RELEASE.
+Download Tensor [here](https://github.com/IUDevman/Tensor).

@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "plugin",
+  "id": "delta",
   "version": "${version}",
 
-  "name": "Tensor-Example-Plugin",
-  "description": "Example Tensor plugin.",
+  "name": "Delta-Plugin",
+  "description": "Tensor plugin port for the Delta crash client.",
   "authors": [
-    "Go_Hoosiers"
+    "Saturn5VFive",
+    "alleggs123"
   ],
   "contact": {
-    "homepage": "https://github.com/IUDevman",
-    "sources": "https://github.com/IUDevman/Tensor"
+    "homepage": "https://github.com/Saturn5Vfive/Delta",
+    "sources": "https://github.com/IUDevman/Delta-Plugin"
   },
 
-  "license": "ARR",
+  "license": "CCO-1.0",
 
   "environment": "*",
   "entrypoints": {
@@ -22,7 +23,7 @@
     ]
   },
   "mixins": [
-    "plugin.mixins.json"
+    "delta.mixins.json"
   ],
 
   "depends": {
